@@ -18,7 +18,7 @@ const {
     commands
 } = require('../command')
 var sizetoo =  "_This file size is too big_"
-const yts = require("ytsearch-venom")
+const yts = require("yt-search")
 
 let wm = config.FOOTER
 let newsize = config.MAX_SIZE * 1024 * 1024
